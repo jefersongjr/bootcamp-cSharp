@@ -52,6 +52,11 @@
     IEnumerable<int> listNumbers = Enumerable.Range(1, 10);
     string numbersText = string.Join(',', listNumbers);
     Console.WriteLine(numbersText);
+
+    //interpolando strings
+
+    string name = "Tryber";
+    Console.WriteLine($"Hello, {name}!");
 }
 
     }
